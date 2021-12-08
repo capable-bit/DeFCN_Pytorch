@@ -14,9 +14,8 @@ cfg.TRAIN = EasyDict()
 cfg.TRAIN.START_EPOCH = 1
 cfg.TRAIN.MAX_EPOCH = 36
 cfg.TRAIN.SAVE_DIR = r"./output"
-# cfg.TRAIN.RESUME = r"/home/dcxh1819/cnt/lhl/weight/model_61.pth"
 cfg.TRAIN.RESUME = r"./weight/R-50.pkl"
-cfg.VAL_TRAIN = 'val'
+cfg.VAL_TRAIN = 'train'
 #------------------Train-------------------------------------------------#
 
 
