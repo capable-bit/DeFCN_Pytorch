@@ -21,7 +21,7 @@ cfg.VAL_TRAIN = 'train'
 
 #------------------DATA-------------------------------------------------#
 cfg.DATA = EasyDict()
-cfg.DATA.COCO_PATH = "/home/dcxh1819/cnt/lhl/datasets/coco/"
+cfg.DATA.COCO_PATH = "./datasets"
 cfg.DATA.BATCH_SIZE = 2
 #------------------DATA-------------------------------------------------#
 
