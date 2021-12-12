@@ -101,7 +101,6 @@ def resume_or_load(cfg,model):
     convert_ndarray_to_tensor(checkpoint_state_dict)
     model.load_state_dict(checkpoint_state_dict, strict=False)
 
-
 def focal_loss(
     probs,
     targets,

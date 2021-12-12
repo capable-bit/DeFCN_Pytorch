@@ -31,7 +31,7 @@ if __name__ == '__main__':
     resume_or_load(cfg,model)                       # 加载部分resnet预训练权重
 
     #---------train----------------#
-
+    d_2 = model.state_dict()
     for epoch in range(cfg.TRAIN.START_EPOCH,cfg.TRAIN.MAX_EPOCH):   # 大概要迭代 36个epoch   (2160000*batch_size)/118287 = 36
         for iter, data in enumerate(data_loader):
             model.train()

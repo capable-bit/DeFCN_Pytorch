@@ -7,12 +7,12 @@ cfg = parser.parse_args()
 cfg.NUM_DEVICES = 1
 cfg.RANK = 0
 cfg.NUM_WORKERS = 2
-cfg.SEED = 49645663
+cfg.SEED = 9905538
 
 #------------------Train-------------------------------------------------#
 cfg.TRAIN = EasyDict()
 cfg.TRAIN.START_EPOCH = 1
-cfg.TRAIN.MAX_EPOCH = 36
+cfg.TRAIN.MAX_EPOCH = 46
 cfg.TRAIN.SAVE_DIR = r"./output"
 cfg.TRAIN.RESUME = r"./weight/R-50.pkl"
 cfg.VAL_TRAIN = 'train'
